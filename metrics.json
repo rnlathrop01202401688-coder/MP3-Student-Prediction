@@ -1,0 +1,52 @@
+{
+  "accuracy": 0.9001386962552012,
+  "training_rows": 2881,
+  "test_rows": 721,
+  "classification_report": {
+    "High": {
+      "precision": 0.9473684210526315,
+      "recall": 0.8476454293628809,
+      "f1-score": 0.8947368421052632,
+      "support": 361.0
+    },
+    "Low": {
+      "precision": 0.8618090452261307,
+      "recall": 0.9527777777777777,
+      "f1-score": 0.9050131926121372,
+      "support": 360.0
+    },
+    "accuracy": 0.9001386962552012,
+    "macro avg": {
+      "precision": 0.9045887331393812,
+      "recall": 0.9002116035703294,
+      "f1-score": 0.8998750173587002,
+      "support": 721.0
+    },
+    "weighted avg": {
+      "precision": 0.9046480669645035,
+      "recall": 0.9001386962552012,
+      "f1-score": 0.899867890902038,
+      "support": 721.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      306,
+      55
+    ],
+    [
+      17,
+      343
+    ]
+  ],
+  "feature_importances": {
+    "Submission.Actions": 0.09436910613709072,
+    "Quiz.Actions": 0.1540682103060903,
+    "Forum.Actions": 0.10177179138485716,
+    "Create.Actions": 0.11690819001861902,
+    "Read.Actions": 0.25651433396519624,
+    "Update.Actions": 0.08101496093346676,
+    "Delete.Actions": 0.011498697529983152,
+    "Days.Logged.In": 0.1838547097246966
+  }
+}
